@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"1bccb389-99a9-484c-9d49-cd02c48925c7\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Speed\",\r\n      \"type\": \"float\",\r\n     
+    \"value\": 5.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"ececfaa5-5a74-481f-9f5c-65b8caae3567\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"Player\",\r\n      \"type\": \"json\",\r\n      \"schemaId\": null,\r\n     
+    \"value\": {\r\n        \"Speed\": 6,\r\n        \"TurnSpeed\": 3,\r\n       
+    \"JumpHeight\": 4\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"5a6cd6a7-67b5-420e-8051-1361296c642a\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"Platforms\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": {\r\n        \"PlatformList\": [\r\n          {\r\n           
+    \"Speed\": 6,\r\n            \"EasingDistance\": 0.5,\r\n            \"Points\":
+    [\r\n              {\r\n                \"x\": 0,\r\n                \"y\": 0,\r\n               
+    \"z\": 1\r\n              },\r\n              {\r\n                \"x\": 1,\r\n               
+    \"y\": 0,\r\n                \"z\": 0\r\n              },\r\n              {\r\n               
+    \"x\": 0,\r\n                \"y\": 1,\r\n                \"z\": 0\r\n             
+    }\r\n            ]\r\n          },\r\n          {\r\n            \"Speed\": 2,\r\n           
+    \"EasingDistance\": 0.5,\r\n            \"Points\": [\r\n              {\r\n               
+    \"x\": 0,\r\n                \"y\": 0,\r\n                \"z\": 1\r\n             
+    },\r\n              {\r\n                \"x\": 1,\r\n                \"y\":
+    0,\r\n                \"z\": 0\r\n              },\r\n              {\r\n               
+    \"x\": 0,\r\n                \"y\": 1,\r\n                \"z\": 0\r\n             
+    }\r\n            ]\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"1bccb389-99a9-484c-9d49-cd02c48925c7\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"Speed\",\r\n      \"type\": \"float\",\r\n     
+    \"value\": 5.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
+    \"ececfaa5-5a74-481f-9f5c-65b8caae3567\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"key\": \"Player\",\r\n      \"type\": \"json\",\r\n      \"schemaId\": null,\r\n     
+    \"value\": {\r\n        \"Speed\": 6,\r\n        \"TurnSpeed\": 3,\r\n       
+    \"JumpHeight\": 4\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
+    \"entityId\": \"5a6cd6a7-67b5-420e-8051-1361296c642a\"\r\n    },\r\n    \"rs\":
+    {\r\n      \"key\": \"Platforms\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
+    null,\r\n      \"value\": {\r\n        \"PlatformList\": [\r\n          {\r\n           
+    \"Speed\": 6,\r\n            \"EasingDistance\": 0.5,\r\n            \"Points\":
+    [\r\n              {\r\n                \"x\": 0,\r\n                \"y\": 0,\r\n               
+    \"z\": 1\r\n              },\r\n              {\r\n                \"x\": 1,\r\n               
+    \"y\": 0,\r\n                \"z\": 0\r\n              },\r\n              {\r\n               
+    \"x\": 0,\r\n                \"y\": 1,\r\n                \"z\": 0\r\n             
+    }\r\n            ]\r\n          },\r\n          {\r\n            \"Speed\": 2,\r\n           
+    \"EasingDistance\": 0.5,\r\n            \"Points\": [\r\n              {\r\n               
+    \"x\": 0,\r\n                \"y\": 0,\r\n                \"z\": 1\r\n             
+    },\r\n              {\r\n                \"x\": 1,\r\n                \"y\":
+    0,\r\n                \"z\": 0\r\n              },\r\n              {\r\n               
+    \"x\": 0,\r\n                \"y\": 1,\r\n                \"z\": 0\r\n             
+    }\r\n            ]\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"505b3eae-054e-4860-ac93-6f6adbc4308a\",\r\n   
+    \"name\": \"demo\",\r\n    \"id\": \"83bf9896-c4d2-4526-80b2-4bdd949b171b\",\r\n   
+    \"isDefault\": false,\r\n    \"createdAt\": \"2023-07-07T17:12:37Z\",\r\n   
+    \"updatedAt\": \"2023-07-07T17:12:37Z\"\r\n  },\r\n  {\r\n    \"projectId\":
+    \"505b3eae-054e-4860-ac93-6f6adbc4308a\",\r\n    \"name\": \"production\",\r\n   
+    \"id\": \"9c909e7c-8019-46a7-9ebe-153f36fe8cc0\",\r\n    \"isDefault\": true,\r\n   
+    \"createdAt\": \"2023-06-30T18:29:52Z\",\r\n    \"updatedAt\": \"2023-06-30T18:29:52Z\"\r\n 
+    },\r\n  {\r\n    \"projectId\": \"505b3eae-054e-4860-ac93-6f6adbc4308a\",\r\n   
+    \"name\": \"development\",\r\n    \"id\": \"23f5879a-5dab-4eae-aed3-21267a2ee040\",\r\n   
+    \"isDefault\": false,\r\n    \"createdAt\": \"2023-06-30T18:49:03Z\",\r\n   
+    \"updatedAt\": \"2023-06-30T18:49:03Z\"\r\n  }\r\n]"
