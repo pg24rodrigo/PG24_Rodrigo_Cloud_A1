@@ -15,7 +15,10 @@ namespace VFSCloud
         [HideInInspector]
         public CloudDataManager Instance;
 
+        private static CloudTelemetry Telemetry = new CloudTelemetry();
+        
         private RemoteConfigService Remote => RemoteConfigService.Instance;
+
 
         public void Awake()
         {
@@ -36,7 +39,7 @@ namespace VFSCloud
             FetchConfigData();
         }
 
-        private void FetchConfigData()
+        public void FetchConfigData()
         {
             Remote.SetEnvironmentID(Connection.Service.RemoteID);
 
@@ -94,6 +97,11 @@ namespace VFSCloud
             list = FindObjectsOfType<MonoBehaviour>().OfType<T>();
 
             return new List<T>(list);
+        }
+
+        public void RecordEvent(string eventName)
+        {
+            Telemetry.RecordEvent(eventName);
         }
 
         public struct userAttributes{}
