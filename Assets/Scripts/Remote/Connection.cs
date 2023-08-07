@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Unity.Services.Analytics;
 using UnityEngine;
 using Unity.Services.Core;
 using Unity.Services.Authentication;
@@ -11,7 +12,7 @@ namespace VFSCloud
     public class Connection
     {
         private static Connection _instance = null;
-        private Dictionary<string, string> _environmentList = new Dictionary<string, string>();
+        private Dictionary<string, string> _environmentList;
 
         // keep track of current environment
 #if UNITY_EDITOR
@@ -21,7 +22,7 @@ namespace VFSCloud
 #endif
 
         private IAuthenticationService Auth => AuthenticationService.Instance;
-
+        
         public static Connection Service
         {
             get
@@ -69,6 +70,11 @@ namespace VFSCloud
             }
 
             Debug.Log($"Player ID {Auth.PlayerId}");
+
+            List<string> consentIdentifiers =
+                await AnalyticsService.Instance.CheckForRequiredConsents();
+            
+            AnalyticsService.Instance.StartDataCollection();
         }
     }
 }

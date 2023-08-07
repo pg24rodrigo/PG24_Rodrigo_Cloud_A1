@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"1bccb389-99a9-484c-9d49-cd02c48925c7\"\r\n   
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"946cf3a2-b810-4441-8ee2-ef6c307c96f9\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"Speed\",\r\n      \"type\": \"float\",\r\n     
     \"value\": 5.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"ececfaa5-5a74-481f-9f5c-65b8caae3567\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"a0bc9617-db60-4460-9433-7ffc5a166c3f\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"Player\",\r\n      \"type\": \"json\",\r\n      \"schemaId\": null,\r\n     
     \"value\": {\r\n        \"Speed\": 6,\r\n        \"TurnSpeed\": 3,\r\n       
     \"JumpHeight\": 4\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
-    \"entityId\": \"5a6cd6a7-67b5-420e-8051-1361296c642a\"\r\n    },\r\n    \"rs\":
+    \"entityId\": \"fb323f81-7b05-467f-94f9-bd585c66b75b\"\r\n    },\r\n    \"rs\":
     {\r\n      \"key\": \"Platforms\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
     null,\r\n      \"value\": {\r\n        \"PlatformList\": [\r\n          {\r\n           
     \"Speed\": 6,\r\n            \"EasingDistance\": 0.5,\r\n            \"Points\":
@@ -34,14 +34,14 @@ MonoBehaviour:
     0,\r\n                \"z\": 0\r\n              },\r\n              {\r\n               
     \"x\": 0,\r\n                \"y\": 1,\r\n                \"z\": 0\r\n             
     }\r\n            ]\r\n          }\r\n        ]\r\n      }\r\n    }\r\n  }\r\n]"
-  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"1bccb389-99a9-484c-9d49-cd02c48925c7\"\r\n   
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"946cf3a2-b810-4441-8ee2-ef6c307c96f9\"\r\n   
     },\r\n    \"rs\": {\r\n      \"key\": \"Speed\",\r\n      \"type\": \"float\",\r\n     
     \"value\": 5.0\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"ececfaa5-5a74-481f-9f5c-65b8caae3567\"\r\n    },\r\n    \"rs\": {\r\n     
+    \"a0bc9617-db60-4460-9433-7ffc5a166c3f\"\r\n    },\r\n    \"rs\": {\r\n     
     \"key\": \"Player\",\r\n      \"type\": \"json\",\r\n      \"schemaId\": null,\r\n     
     \"value\": {\r\n        \"Speed\": 6,\r\n        \"TurnSpeed\": 3,\r\n       
     \"JumpHeight\": 4\r\n      }\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n     
-    \"entityId\": \"5a6cd6a7-67b5-420e-8051-1361296c642a\"\r\n    },\r\n    \"rs\":
+    \"entityId\": \"fb323f81-7b05-467f-94f9-bd585c66b75b\"\r\n    },\r\n    \"rs\":
     {\r\n      \"key\": \"Platforms\",\r\n      \"type\": \"json\",\r\n      \"schemaId\":
     null,\r\n      \"value\": {\r\n        \"PlatformList\": [\r\n          {\r\n           
     \"Speed\": 6,\r\n            \"EasingDistance\": 0.5,\r\n            \"Points\":
